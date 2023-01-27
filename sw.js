@@ -1,3 +1,1 @@
-self.addEventListener("fetch", e => {
-  console.log(e.request.url)
-})
+// self.addEventListener("fetch", e => {})
