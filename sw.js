@@ -1,10 +1,10 @@
 self.addEventListener("install", e => {
-  console.info("Service Worker Installed")
+  console.log("Service Worker Installed")
 })
 
-self.addEventListener("fetch", e => {
-  console.info(e.request.url)
-  e.respondWith(
-    caches.match(e.request).then(response => response || fetch(e.request))
-  )
-})
+// self.addEventListener("fetch", e => {
+//   console.log(e.request.url)
+//   e.respondWith(
+//     caches.match(e.request).then(response => response || fetch(e.request))
+//   )
+// })
