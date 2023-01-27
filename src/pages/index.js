@@ -4,6 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import A2HS from "../components/a2hs"
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -23,6 +24,7 @@ const IndexPage = ({ data }) => (
       <Link to="/page-2/">Go to page 2</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
     </p>
+    <A2HS />
   </Layout>
 )
 
