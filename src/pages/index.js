@@ -9,9 +9,9 @@ import A2HS from "../components/a2hs"
 const IndexPage = ({ data }) => (
   <Layout>
     <Seo title="Home" />
-    <h1>Hi gatsby!!! {data.site.siteMetadata.description}</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <h1>Hi jojiiiiyoung!!! {data.site.siteMetadata.description}</h1>
+    {/* <p>Welcome to your new Gatsby site.</p>
+    <p>Now go build something great.</p> */}
     <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}
